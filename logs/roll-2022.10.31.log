@@ -130,3 +130,400 @@ Error [TOKEN_INVALID]: An invalid token was provided.
 13:53:45.145 INFO  Initializing music manager 
 13:53:45.611 INFO  Successfully registered slash commands 
 13:53:46.351 INFO  Node "vicco node server" connected 
+14:11:02.926 INFO  Loading commands... 
+14:11:02.998 DEBUG Skipping slash command avatar. Disabled! 
+14:11:02.999 DEBUG Skipping slash command botinvite. Disabled! 
+14:11:03.002 DEBUG Skipping slash command botstats. Disabled! 
+14:11:03.003 DEBUG Skipping slash command channelinfo. Disabled! 
+14:11:03.005 DEBUG Skipping slash command emojiinfo. Disabled! 
+14:11:03.007 DEBUG Skipping slash command guildinfo. Disabled! 
+14:11:03.014 DEBUG Skipping command bot. Disabled! 
+14:11:03.015 DEBUG Skipping command info. Disabled! 
+14:11:03.016 DEBUG Skipping slash command uptime. Disabled! 
+14:11:03.017 DEBUG Skipping slash command userinfo. Disabled! 
+14:11:03.029 DEBUG Skipping slash command deafen. Disabled! 
+14:11:03.030 DEBUG Skipping slash command disconnect. Disabled! 
+14:11:03.031 DEBUG Skipping slash command move. Disabled! 
+14:11:03.033 DEBUG Skipping slash command purge. Disabled! 
+14:11:03.033 DEBUG Skipping slash command purgeattach. Disabled! 
+14:11:03.034 DEBUG Skipping slash command purgebots. Disabled! 
+14:11:03.035 DEBUG Skipping slash command purgelinks. Disabled! 
+14:11:03.035 DEBUG Skipping slash command purgetoken. Disabled! 
+14:11:03.036 DEBUG Skipping slash command purgeuser. Disabled! 
+14:11:03.038 DEBUG Skipping command purge. Disabled! 
+14:11:03.039 DEBUG Skipping command voice. Disabled! 
+14:11:03.041 DEBUG Skipping slash command undeafen. Disabled! 
+14:11:03.042 DEBUG Skipping slash command vmute. Disabled! 
+14:11:03.043 DEBUG Skipping slash command vunmute. Disabled! 
+14:11:03.077 INFO  Loaded 89 commands 
+14:11:03.078 INFO  Loaded 73 slash commands 
+14:11:03.078 INFO  Loading contexts... 
+14:11:03.081 INFO  Loaded 2 USER contexts 
+14:11:03.081 INFO  Loaded 0 MESSAGE contexts 
+14:11:03.081 INFO  Loading events... 
+14:11:03.121 INFO  Loaded 22 events. Success (22) Failed (0) 
+14:11:03.542 INFO  VersionCheck: Your discord bot is up to date 
+14:11:03.543 INFO  Validating config.js and environment variables 
+14:11:03.543 INFO  Launching dashboard 
+14:11:03.759 INFO  Connecting to MongoDb... 
+14:11:03.764 INFO  Dashboard is listening on port 8080 
+14:11:04.574 INFO  Mongoose: Database connection established 
+14:11:04.906 ERROR An invalid token was provided.
+{}
+Error [TOKEN_INVALID]: An invalid token was provided.
+    at WebSocketManager.connect (D:\Documenti\GitHub\siderno-bot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:129:26)
+    at BotClient.login (D:\Documenti\GitHub\siderno-bot\node_modules\discord.js\src\client\Client.js:254:21)
+    at D:\Documenti\GitHub\siderno-bot\bot.js:32:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+14:36:24.507 INFO  Loading commands... 
+14:36:24.574 DEBUG Skipping slash command avatar. Disabled! 
+14:36:24.575 DEBUG Skipping slash command botinvite. Disabled! 
+14:36:24.578 DEBUG Skipping slash command botstats. Disabled! 
+14:36:24.579 DEBUG Skipping slash command channelinfo. Disabled! 
+14:36:24.580 DEBUG Skipping slash command emojiinfo. Disabled! 
+14:36:24.583 DEBUG Skipping slash command guildinfo. Disabled! 
+14:36:24.590 DEBUG Skipping command bot. Disabled! 
+14:36:24.591 DEBUG Skipping command info. Disabled! 
+14:36:24.591 DEBUG Skipping slash command uptime. Disabled! 
+14:36:24.592 DEBUG Skipping slash command userinfo. Disabled! 
+14:36:24.604 DEBUG Skipping slash command deafen. Disabled! 
+14:36:24.606 DEBUG Skipping slash command disconnect. Disabled! 
+14:36:24.607 DEBUG Skipping slash command move. Disabled! 
+14:36:24.609 DEBUG Skipping slash command purge. Disabled! 
+14:36:24.609 DEBUG Skipping slash command purgeattach. Disabled! 
+14:36:24.610 DEBUG Skipping slash command purgebots. Disabled! 
+14:36:24.610 DEBUG Skipping slash command purgelinks. Disabled! 
+14:36:24.611 DEBUG Skipping slash command purgetoken. Disabled! 
+14:36:24.612 DEBUG Skipping slash command purgeuser. Disabled! 
+14:36:24.614 DEBUG Skipping command purge. Disabled! 
+14:36:24.615 DEBUG Skipping command voice. Disabled! 
+14:36:24.617 DEBUG Skipping slash command undeafen. Disabled! 
+14:36:24.618 DEBUG Skipping slash command vmute. Disabled! 
+14:36:24.619 DEBUG Skipping slash command vunmute. Disabled! 
+14:36:24.649 INFO  Loaded 89 commands 
+14:36:24.649 INFO  Loaded 73 slash commands 
+14:36:24.649 INFO  Loading contexts... 
+14:36:24.652 INFO  Loaded 2 USER contexts 
+14:36:24.653 INFO  Loaded 0 MESSAGE contexts 
+14:36:24.653 INFO  Loading events... 
+14:36:24.694 INFO  Loaded 22 events. Success (22) Failed (0) 
+14:36:26.568 INFO  VersionCheck: Your discord bot is up to date 
+14:36:26.568 INFO  Validating config.js and environment variables 
+14:36:26.569 INFO  Launching dashboard 
+14:36:26.764 INFO  Connecting to MongoDb... 
+14:36:26.767 INFO  Dashboard is listening on port 8080 
+14:36:27.589 INFO  Mongoose: Database connection established 
+14:36:28.733 INFO  Logged in as siderno#2195! (971143528866537554) 
+14:36:28.733 INFO  Initializing music manager 
+14:36:29.319 INFO  Successfully registered slash commands 
+14:36:29.459 INFO  Node "vicco node server" connected 
+14:41:08.627 INFO  Loading commands... 
+14:41:08.694 DEBUG Skipping slash command avatar. Disabled! 
+14:41:08.695 DEBUG Skipping slash command botinvite. Disabled! 
+14:41:08.698 DEBUG Skipping slash command botstats. Disabled! 
+14:41:08.699 DEBUG Skipping slash command channelinfo. Disabled! 
+14:41:08.700 DEBUG Skipping slash command emojiinfo. Disabled! 
+14:41:08.703 DEBUG Skipping slash command guildinfo. Disabled! 
+14:41:08.709 DEBUG Skipping command bot. Disabled! 
+14:41:08.710 DEBUG Skipping command info. Disabled! 
+14:41:08.711 DEBUG Skipping slash command uptime. Disabled! 
+14:41:08.712 DEBUG Skipping slash command userinfo. Disabled! 
+14:41:08.728 DEBUG Skipping slash command deafen. Disabled! 
+14:41:08.729 DEBUG Skipping slash command disconnect. Disabled! 
+14:41:08.732 DEBUG Skipping slash command move. Disabled! 
+14:41:08.733 DEBUG Skipping slash command purge. Disabled! 
+14:41:08.734 DEBUG Skipping slash command purgeattach. Disabled! 
+14:41:08.734 DEBUG Skipping slash command purgebots. Disabled! 
+14:41:08.735 DEBUG Skipping slash command purgelinks. Disabled! 
+14:41:08.736 DEBUG Skipping slash command purgetoken. Disabled! 
+14:41:08.736 DEBUG Skipping slash command purgeuser. Disabled! 
+14:41:08.739 DEBUG Skipping command purge. Disabled! 
+14:41:08.740 DEBUG Skipping command voice. Disabled! 
+14:41:08.742 DEBUG Skipping slash command undeafen. Disabled! 
+14:41:08.743 DEBUG Skipping slash command vmute. Disabled! 
+14:41:08.744 DEBUG Skipping slash command vunmute. Disabled! 
+14:41:08.772 INFO  Loaded 89 commands 
+14:41:08.772 INFO  Loaded 73 slash commands 
+14:41:08.772 INFO  Loading contexts... 
+14:41:08.775 INFO  Loaded 2 USER contexts 
+14:41:08.775 INFO  Loaded 0 MESSAGE contexts 
+14:41:08.775 INFO  Loading events... 
+14:41:08.810 INFO  Loaded 22 events. Success (22) Failed (0) 
+14:41:09.220 INFO  VersionCheck: Your discord bot is up to date 
+14:41:09.221 INFO  Validating config.js and environment variables 
+14:41:09.221 INFO  Launching dashboard 
+14:41:09.377 INFO  Connecting to MongoDb... 
+14:41:09.381 INFO  Dashboard is listening on port 8080 
+14:41:10.356 INFO  Mongoose: Database connection established 
+14:41:11.567 INFO  Logged in as siderno#2195! (971143528866537554) 
+14:41:11.567 INFO  Initializing music manager 
+14:41:12.124 INFO  Successfully registered slash commands 
+14:41:12.220 INFO  Node "vicco node server" connected 
+14:41:36.819 INFO  Loading commands... 
+14:41:36.884 DEBUG Skipping slash command avatar. Disabled! 
+14:41:36.886 DEBUG Skipping slash command botinvite. Disabled! 
+14:41:36.889 DEBUG Skipping slash command botstats. Disabled! 
+14:41:36.891 DEBUG Skipping slash command channelinfo. Disabled! 
+14:41:36.892 DEBUG Skipping slash command emojiinfo. Disabled! 
+14:41:36.896 DEBUG Skipping slash command guildinfo. Disabled! 
+14:41:36.904 DEBUG Skipping command bot. Disabled! 
+14:41:36.905 DEBUG Skipping command info. Disabled! 
+14:41:36.906 DEBUG Skipping slash command uptime. Disabled! 
+14:41:36.907 DEBUG Skipping slash command userinfo. Disabled! 
+14:41:36.921 DEBUG Skipping slash command deafen. Disabled! 
+14:41:36.922 DEBUG Skipping slash command disconnect. Disabled! 
+14:41:36.925 DEBUG Skipping slash command move. Disabled! 
+14:41:36.926 DEBUG Skipping slash command purge. Disabled! 
+14:41:36.927 DEBUG Skipping slash command purgeattach. Disabled! 
+14:41:36.928 DEBUG Skipping slash command purgebots. Disabled! 
+14:41:36.929 DEBUG Skipping slash command purgelinks. Disabled! 
+14:41:36.929 DEBUG Skipping slash command purgetoken. Disabled! 
+14:41:36.930 DEBUG Skipping slash command purgeuser. Disabled! 
+14:41:36.933 DEBUG Skipping command purge. Disabled! 
+14:41:36.934 DEBUG Skipping command voice. Disabled! 
+14:41:36.936 DEBUG Skipping slash command undeafen. Disabled! 
+14:41:36.938 DEBUG Skipping slash command vmute. Disabled! 
+14:41:36.939 DEBUG Skipping slash command vunmute. Disabled! 
+14:41:36.979 INFO  Loaded 89 commands 
+14:41:36.979 INFO  Loaded 73 slash commands 
+14:41:36.979 INFO  Loading contexts... 
+14:41:36.982 INFO  Loaded 2 USER contexts 
+14:41:36.982 INFO  Loaded 0 MESSAGE contexts 
+14:41:36.982 INFO  Loading events... 
+14:41:37.017 INFO  Loaded 22 events. Success (22) Failed (0) 
+14:41:37.421 INFO  VersionCheck: Your discord bot is up to date 
+14:41:37.421 INFO  Validating config.js and environment variables 
+14:41:37.422 INFO  Launching dashboard 
+14:41:37.585 INFO  Connecting to MongoDb... 
+14:41:37.588 INFO  Dashboard is listening on port 8080 
+14:41:38.374 INFO  Mongoose: Database connection established 
+14:41:39.569 INFO  Logged in as siderno#2195! (971143528866537554) 
+14:41:39.570 INFO  Initializing music manager 
+14:41:40.011 INFO  Successfully registered slash commands 
+14:41:40.237 INFO  Node "vicco node server" connected 
+14:41:47.006 ERROR Cannot read properties of null (reading 'query')
+{}
+TypeError: Cannot read properties of null (reading 'query')
+    at Spotify.<anonymous> (D:\Documenti\GitHub\siderno-bot\node_modules\erela.js-spotify\dist\plugin.js:78:38)
+    at Generator.next (<anonymous>)
+    at D:\Documenti\GitHub\siderno-bot\node_modules\erela.js-spotify\dist\plugin.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\Documenti\GitHub\siderno-bot\node_modules\erela.js-spotify\dist\plugin.js:4:12)
+    at Spotify.search (D:\Documenti\GitHub\siderno-bot\node_modules\erela.js-spotify\dist\plugin.js:77:16)
+    at Player.search (D:\Documenti\GitHub\siderno-bot\node_modules\erela.js\dist\structures\Player.js:113:29)
+    at play (D:\Documenti\GitHub\siderno-bot\src\commands\music\play.js:80:24)
+    at Play.interactionRun (D:\Documenti\GitHub\siderno-bot\src\commands\music\play.js:49:28)
+    at Play.executeInteraction (D:\Documenti\GitHub\siderno-bot\src\structures\Command.js:225:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async module.exports (D:\Documenti\GitHub\siderno-bot\src\events\interactions\interactionCreate.js:17:18) 
+14:41:55.125 INFO  Loading commands... 
+14:41:55.184 DEBUG Skipping slash command avatar. Disabled! 
+14:41:55.186 DEBUG Skipping slash command botinvite. Disabled! 
+14:41:55.188 DEBUG Skipping slash command botstats. Disabled! 
+14:41:55.189 DEBUG Skipping slash command channelinfo. Disabled! 
+14:41:55.190 DEBUG Skipping slash command emojiinfo. Disabled! 
+14:41:55.193 DEBUG Skipping slash command guildinfo. Disabled! 
+14:41:55.199 DEBUG Skipping command bot. Disabled! 
+14:41:55.201 DEBUG Skipping command info. Disabled! 
+14:41:55.201 DEBUG Skipping slash command uptime. Disabled! 
+14:41:55.202 DEBUG Skipping slash command userinfo. Disabled! 
+14:41:55.215 DEBUG Skipping slash command deafen. Disabled! 
+14:41:55.216 DEBUG Skipping slash command disconnect. Disabled! 
+14:41:55.217 DEBUG Skipping slash command move. Disabled! 
+14:41:55.219 DEBUG Skipping slash command purge. Disabled! 
+14:41:55.220 DEBUG Skipping slash command purgeattach. Disabled! 
+14:41:55.221 DEBUG Skipping slash command purgebots. Disabled! 
+14:41:55.221 DEBUG Skipping slash command purgelinks. Disabled! 
+14:41:55.222 DEBUG Skipping slash command purgetoken. Disabled! 
+14:41:55.222 DEBUG Skipping slash command purgeuser. Disabled! 
+14:41:55.224 DEBUG Skipping command purge. Disabled! 
+14:41:55.225 DEBUG Skipping command voice. Disabled! 
+14:41:55.227 DEBUG Skipping slash command undeafen. Disabled! 
+14:41:55.228 DEBUG Skipping slash command vmute. Disabled! 
+14:41:55.229 DEBUG Skipping slash command vunmute. Disabled! 
+14:41:55.255 INFO  Loaded 89 commands 
+14:41:55.255 INFO  Loaded 73 slash commands 
+14:41:55.255 INFO  Loading contexts... 
+14:41:55.258 INFO  Loaded 2 USER contexts 
+14:41:55.258 INFO  Loaded 0 MESSAGE contexts 
+14:41:55.258 INFO  Loading events... 
+14:41:55.297 INFO  Loaded 22 events. Success (22) Failed (0) 
+14:41:55.504 INFO  VersionCheck: Your discord bot is up to date 
+14:41:55.505 INFO  Validating config.js and environment variables 
+14:41:55.505 INFO  Launching dashboard 
+14:41:55.666 INFO  Connecting to MongoDb... 
+14:41:55.670 INFO  Dashboard is listening on port 8080 
+14:41:56.414 INFO  Mongoose: Database connection established 
+14:41:57.385 INFO  Logged in as siderno#2195! (971143528866537554) 
+14:41:57.385 INFO  Initializing music manager 
+14:41:58.057 INFO  Node "vicco node server" connected 
+14:42:12.868 INFO  Successfully registered slash commands 
+14:42:46.123 INFO  Loading commands... 
+14:42:46.179 DEBUG Skipping slash command avatar. Disabled! 
+14:42:46.180 DEBUG Skipping slash command botinvite. Disabled! 
+14:42:46.183 DEBUG Skipping slash command botstats. Disabled! 
+14:42:46.185 DEBUG Skipping slash command channelinfo. Disabled! 
+14:42:46.186 DEBUG Skipping slash command emojiinfo. Disabled! 
+14:42:46.188 DEBUG Skipping slash command guildinfo. Disabled! 
+14:42:46.194 DEBUG Skipping command bot. Disabled! 
+14:42:46.195 DEBUG Skipping command info. Disabled! 
+14:42:46.195 DEBUG Skipping slash command uptime. Disabled! 
+14:42:46.196 DEBUG Skipping slash command userinfo. Disabled! 
+14:42:46.206 DEBUG Skipping slash command deafen. Disabled! 
+14:42:46.207 DEBUG Skipping slash command disconnect. Disabled! 
+14:42:46.209 DEBUG Skipping slash command move. Disabled! 
+14:42:46.210 DEBUG Skipping slash command purge. Disabled! 
+14:42:46.210 DEBUG Skipping slash command purgeattach. Disabled! 
+14:42:46.211 DEBUG Skipping slash command purgebots. Disabled! 
+14:42:46.211 DEBUG Skipping slash command purgelinks. Disabled! 
+14:42:46.212 DEBUG Skipping slash command purgetoken. Disabled! 
+14:42:46.212 DEBUG Skipping slash command purgeuser. Disabled! 
+14:42:46.214 DEBUG Skipping command purge. Disabled! 
+14:42:46.215 DEBUG Skipping command voice. Disabled! 
+14:42:46.217 DEBUG Skipping slash command undeafen. Disabled! 
+14:42:46.218 DEBUG Skipping slash command vmute. Disabled! 
+14:42:46.219 DEBUG Skipping slash command vunmute. Disabled! 
+14:42:46.245 INFO  Loaded 89 commands 
+14:42:46.246 INFO  Loaded 73 slash commands 
+14:42:46.246 INFO  Loading contexts... 
+14:42:46.248 INFO  Loaded 2 USER contexts 
+14:42:46.249 INFO  Loaded 0 MESSAGE contexts 
+14:42:46.249 INFO  Loading events... 
+14:42:46.283 INFO  Loaded 22 events. Success (22) Failed (0) 
+14:42:46.717 INFO  VersionCheck: Your discord bot is up to date 
+14:42:46.717 INFO  Validating config.js and environment variables 
+14:42:46.717 INFO  Launching dashboard 
+14:42:46.899 INFO  Connecting to MongoDb... 
+14:42:46.903 INFO  Dashboard is listening on port 8080 
+14:42:47.749 INFO  Mongoose: Database connection established 
+14:42:48.795 INFO  Logged in as siderno#2195! (971143528866537554) 
+14:42:48.795 INFO  Initializing music manager 
+14:42:49.225 INFO  Successfully registered slash commands 
+14:42:49.454 INFO  Node "vicco node server" connected 
+14:44:47.891 INFO  Loading commands... 
+14:44:47.980 DEBUG Skipping slash command avatar. Disabled! 
+14:44:47.982 DEBUG Skipping slash command botinvite. Disabled! 
+14:44:47.986 DEBUG Skipping slash command botstats. Disabled! 
+14:44:47.988 DEBUG Skipping slash command channelinfo. Disabled! 
+14:44:47.990 DEBUG Skipping slash command emojiinfo. Disabled! 
+14:44:47.995 DEBUG Skipping slash command guildinfo. Disabled! 
+14:44:48.006 DEBUG Skipping command bot. Disabled! 
+14:44:48.007 DEBUG Skipping command info. Disabled! 
+14:44:48.008 DEBUG Skipping slash command uptime. Disabled! 
+14:44:48.009 DEBUG Skipping slash command userinfo. Disabled! 
+14:44:48.026 DEBUG Skipping slash command deafen. Disabled! 
+14:44:48.028 DEBUG Skipping slash command disconnect. Disabled! 
+14:44:48.030 DEBUG Skipping slash command move. Disabled! 
+14:44:48.032 DEBUG Skipping slash command purge. Disabled! 
+14:44:48.033 DEBUG Skipping slash command purgeattach. Disabled! 
+14:44:48.034 DEBUG Skipping slash command purgebots. Disabled! 
+14:44:48.036 DEBUG Skipping slash command purgelinks. Disabled! 
+14:44:48.037 DEBUG Skipping slash command purgetoken. Disabled! 
+14:44:48.038 DEBUG Skipping slash command purgeuser. Disabled! 
+14:44:48.042 DEBUG Skipping command purge. Disabled! 
+14:44:48.043 DEBUG Skipping command voice. Disabled! 
+14:44:48.045 DEBUG Skipping slash command undeafen. Disabled! 
+14:44:48.047 DEBUG Skipping slash command vmute. Disabled! 
+14:44:48.048 DEBUG Skipping slash command vunmute. Disabled! 
+14:44:48.097 INFO  Loaded 89 commands 
+14:44:48.097 INFO  Loaded 73 slash commands 
+14:44:48.097 INFO  Loading contexts... 
+14:44:48.101 INFO  Loaded 2 USER contexts 
+14:44:48.101 INFO  Loaded 0 MESSAGE contexts 
+14:44:48.102 INFO  Loading events... 
+14:44:48.158 INFO  Loaded 22 events. Success (22) Failed (0) 
+14:44:48.584 INFO  VersionCheck: Your discord bot is up to date 
+14:44:48.585 INFO  Validating config.js and environment variables 
+14:44:48.585 INFO  Launching dashboard 
+14:44:48.816 INFO  Connecting to MongoDb... 
+14:44:48.820 INFO  Dashboard is listening on port 8080 
+14:44:49.657 INFO  Mongoose: Database connection established 
+14:44:51.049 INFO  Logged in as siderno#2195! (971143528866537554) 
+14:44:51.049 INFO  Initializing music manager 
+14:44:51.466 INFO  Successfully registered slash commands 
+14:44:51.742 INFO  Node "vicco node server" connected 
+14:45:52.158 INFO  Loading commands... 
+14:45:52.226 DEBUG Skipping slash command avatar. Disabled! 
+14:45:52.227 DEBUG Skipping slash command botinvite. Disabled! 
+14:45:52.230 DEBUG Skipping slash command botstats. Disabled! 
+14:45:52.232 DEBUG Skipping slash command channelinfo. Disabled! 
+14:45:52.233 DEBUG Skipping slash command emojiinfo. Disabled! 
+14:45:52.236 DEBUG Skipping slash command guildinfo. Disabled! 
+14:45:52.242 DEBUG Skipping command bot. Disabled! 
+14:45:52.243 DEBUG Skipping command info. Disabled! 
+14:45:52.244 DEBUG Skipping slash command uptime. Disabled! 
+14:45:52.245 DEBUG Skipping slash command userinfo. Disabled! 
+14:45:52.257 DEBUG Skipping slash command deafen. Disabled! 
+14:45:52.258 DEBUG Skipping slash command disconnect. Disabled! 
+14:45:52.260 DEBUG Skipping slash command move. Disabled! 
+14:45:52.261 DEBUG Skipping slash command purge. Disabled! 
+14:45:52.262 DEBUG Skipping slash command purgeattach. Disabled! 
+14:45:52.262 DEBUG Skipping slash command purgebots. Disabled! 
+14:45:52.263 DEBUG Skipping slash command purgelinks. Disabled! 
+14:45:52.263 DEBUG Skipping slash command purgetoken. Disabled! 
+14:45:52.264 DEBUG Skipping slash command purgeuser. Disabled! 
+14:45:52.266 DEBUG Skipping command purge. Disabled! 
+14:45:52.267 DEBUG Skipping command voice. Disabled! 
+14:45:52.269 DEBUG Skipping slash command undeafen. Disabled! 
+14:45:52.270 DEBUG Skipping slash command vmute. Disabled! 
+14:45:52.271 DEBUG Skipping slash command vunmute. Disabled! 
+14:45:52.301 INFO  Loaded 89 commands 
+14:45:52.302 INFO  Loaded 73 slash commands 
+14:45:52.302 INFO  Loading contexts... 
+14:45:52.305 INFO  Loaded 2 USER contexts 
+14:45:52.305 INFO  Loaded 0 MESSAGE contexts 
+14:45:52.306 INFO  Loading events... 
+14:45:52.348 INFO  Loaded 22 events. Success (22) Failed (0) 
+14:45:52.756 INFO  VersionCheck: Your discord bot is up to date 
+14:45:52.756 INFO  Validating config.js and environment variables 
+14:45:52.756 INFO  Launching dashboard 
+14:45:52.948 INFO  Connecting to MongoDb... 
+14:45:52.952 INFO  Dashboard is listening on port 8080 
+14:45:53.833 INFO  Mongoose: Database connection established 
+14:45:54.915 INFO  Logged in as siderno#2195! (971143528866537554) 
+14:45:54.915 INFO  Initializing music manager 
+14:45:55.358 INFO  Successfully registered slash commands 
+14:45:55.578 INFO  Node "vicco node server" connected 
+20:00:45.012 INFO  Loading commands... 
+20:00:45.091 DEBUG Skipping slash command avatar. Disabled! 
+20:00:45.092 DEBUG Skipping slash command botinvite. Disabled! 
+20:00:45.102 DEBUG Skipping slash command botstats. Disabled! 
+20:00:45.104 DEBUG Skipping slash command channelinfo. Disabled! 
+20:00:45.105 DEBUG Skipping slash command emojiinfo. Disabled! 
+20:00:45.107 DEBUG Skipping slash command guildinfo. Disabled! 
+20:00:45.113 DEBUG Skipping command bot. Disabled! 
+20:00:45.114 DEBUG Skipping command info. Disabled! 
+20:00:45.114 DEBUG Skipping slash command uptime. Disabled! 
+20:00:45.115 DEBUG Skipping slash command userinfo. Disabled! 
+20:00:45.125 DEBUG Skipping slash command deafen. Disabled! 
+20:00:45.126 DEBUG Skipping slash command disconnect. Disabled! 
+20:00:45.128 DEBUG Skipping slash command move. Disabled! 
+20:00:45.129 DEBUG Skipping slash command purge. Disabled! 
+20:00:45.129 DEBUG Skipping slash command purgeattach. Disabled! 
+20:00:45.130 DEBUG Skipping slash command purgebots. Disabled! 
+20:00:45.131 DEBUG Skipping slash command purgelinks. Disabled! 
+20:00:45.132 DEBUG Skipping slash command purgetoken. Disabled! 
+20:00:45.132 DEBUG Skipping slash command purgeuser. Disabled! 
+20:00:45.134 DEBUG Skipping command purge. Disabled! 
+20:00:45.135 DEBUG Skipping command voice. Disabled! 
+20:00:45.137 DEBUG Skipping slash command undeafen. Disabled! 
+20:00:45.138 DEBUG Skipping slash command vmute. Disabled! 
+20:00:45.138 DEBUG Skipping slash command vunmute. Disabled! 
+20:00:45.222 INFO  Loaded 89 commands 
+20:00:45.222 INFO  Loaded 73 slash commands 
+20:00:45.222 INFO  Loading contexts... 
+20:00:45.225 INFO  Loaded 2 USER contexts 
+20:00:45.225 INFO  Loaded 0 MESSAGE contexts 
+20:00:45.225 INFO  Loading events... 
+20:00:45.260 INFO  Loaded 22 events. Success (22) Failed (0) 
+20:00:45.881 INFO  VersionCheck: Your discord bot is up to date 
+20:00:45.881 INFO  Validating config.js and environment variables 
+20:00:45.881 INFO  Launching dashboard 
+20:00:47.077 INFO  Connecting to MongoDb... 
+20:00:47.080 INFO  Dashboard is listening on port 8080 
+20:00:48.066 INFO  Mongoose: Database connection established 
+20:00:49.521 INFO  Logged in as siderno#2195! (971143528866537554) 
+20:00:49.521 INFO  Initializing music manager 
+20:00:50.464 INFO  Node "vicco node server" connected 
+20:00:51.148 INFO  Successfully registered slash commands 
+

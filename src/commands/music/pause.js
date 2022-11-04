@@ -41,5 +41,5 @@ function pause({ client, guildId }) {
   if (player.paused) return "The player is already paused.";
 
   player.pause(true);
-  return "⏸️ Paused the music player.";
+  return "⏸️ Sartau a currenti";
 }

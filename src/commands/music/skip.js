@@ -40,5 +40,5 @@ function skip({ client, guildId }) {
   const player = client.musicManager.get(guildId);
   const { title } = player.queue.current;
   player.stop();
-  return `⏯️ ${title} was skipped.`;
+  return `⏯️ ${title} a sartamma`;
 }

@@ -7,13 +7,13 @@ module.exports = class Play extends Command {
   constructor(client) {
     super(client, {
       name: "play",
-      description: "play a song from youtube",
+      description: "menti na canzuna i youtube",
       category: "MUSIC",
       botPermissions: ["EMBED_LINKS"],
       
       command: {
         enabled: true,
-        usage: "<song-name>",
+        usage: "<nomi-da-canzuni>",
         minArgsCount: 1,
         aliases: ["p"],
       },
@@ -22,7 +22,7 @@ module.exports = class Play extends Command {
         options: [
           {
             name: "query",
-            description: "song name or url",
+            description: "nomi da canzuni o url",
             type: "STRING",
             required: true,
           },
@@ -52,11 +52,11 @@ module.exports = class Play extends Command {
 };
 
 async function play({ member, guild, channel }, user, query) {
-  if (!member.voice.channel) return "🚫 You need to join a voice channel first";
+  if (!member.voice.channel) return "🚫 Nda u trasi nta nu canali vocali prima";
   let player = guild.client.musicManager.get(guild.id);
 
   if (player && member.voice.channel !== guild.me.voice.channel) {
-    return "🚫 You must be in the same voice channel as mine";
+    return "🚫 Nda u si nto stessu canali meu";
   }
 
   try {
@@ -69,7 +69,7 @@ async function play({ member, guild, channel }, user, query) {
   } catch (ex) {
     if (ex.message === "No available nodes.") {
       guild.client.logger.debug("No available nodes!");
-      return "🚫 No available nodes! Try again later";
+      return "🚫 Non vaci Nodes!";
     }
   }
 
@@ -84,7 +84,7 @@ async function play({ member, guild, channel }, user, query) {
     }
   } catch (err) {
     guild.client.logger.error("Search Exception", err);
-    return "There was an error while searching";
+    return "Capitau n'erruri nta ricerca";
   }
 
   let embed = new MessageEmbed().setColor(EMBED_COLORS.BOT_EMBED);
@@ -93,21 +93,21 @@ async function play({ member, guild, channel }, user, query) {
   switch (res.loadType) {
     case "NO_MATCHES":
       if (!player.queue.current) player.destroy();
-      return `No results found matching ${query}`;
+      return `Non trovai u restu i nenti cu nomi ${query}`;
 
     case "TRACK_LOADED":
       track = res.tracks[0];
       player.queue.add(track);
       if (!player.playing && !player.paused && !player.queue.size) {
         player.play();
-        return "> 🎶 Adding song to queue";
+        return "> 🎶 Canzuni jiungiuta a cuda";
       }
 
       embed
-        .setAuthor({ name: "Added Song to queue" })
+        .setAuthor({ name: "Canzuni jiungiuta a cuda" })
         .setDescription(` \`[${track.title}](${track.uri})\`
 
-Added By: ${track.requester.tag} | Duration: ❯ \`${prettyMs(track.duration, { colonNotation: true })} | Position In Queue: ${(player.queue.size - 0).toString()}`);
+Jiungiuta i: ${track.requester.tag} | Durata: ❯ \`${prettyMs(track.duration, { colonNotation: true })} | Posizioni nta cuda: ${(player.queue.size - 0).toString()}`);
 
       if (typeof track.displayThumbnail === "function") embed.setThumbnail(track.displayThumbnail("hqdefault"));
       
@@ -133,14 +133,14 @@ Added By: ${track.requester.tag} | Duration: ❯ \`${prettyMs(track.duration, { 
       player.queue.add(track);
       if (!player.playing && !player.paused && !player.queue.size) {
         player.play();
-        return "> 🎶 Adding song to queue";
+        return "> 🎶 Canzuni jiungiuta a cuda";
       }
 
       embed
         .setAuthor({ name: "Added Song to queue" })
                 .setDescription(` [${track.title}](${track.uri})
 
-Added By: ${track.requester.tag} | Duration: ❯ \`${prettyMs(track.duration, { colonNotation: true })}\` | Position In Queue: ${(player.queue.size - 0).toString()}`);
+Jiungiuta i: ${track.requester.tag} | Durata: ❯ \`${prettyMs(track.duration, { colonNotation: true })}\` | Posizioni nta cuda: ${(player.queue.size - 0).toString()}`);
 
       
       return { embeds: [embed] };

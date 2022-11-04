@@ -39,5 +39,5 @@ module.exports = class Stop extends Command {
 function stop({ client, guildId }) {
   const player = client.musicManager.get(guildId);
   player.destroy();
-  return "🎶 The music player is stopped and queue has been cleared";
+  return "🎶 A musica finiu e cuda a cancellamma";
 }
