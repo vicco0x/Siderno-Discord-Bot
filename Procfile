@@ -1,1 +1,1 @@
-worker: npm run start:dev
+worker: npx nodemon bot.js
