@@ -51,7 +51,8 @@
     "string-progressbar": "^1.0.4",
     "table": "^6.8.0",
     "timestamp-to-date": "^1.1.0",
-    "twemoji-parser": "^13.1.0"
+    "twemoji-parser": "^13.1.0",
+    "nodemon": "^2.0.7"
   },
   "devDependencies": {
     "eslint": "^8.6.0",
