@@ -51,9 +51,9 @@ MUSIC: {
     MAX_SEARCH_RESULTS: 5,
     NODES: [
       {
-        host: "krn.2d.gay",
+        host: "node1.kartadharta.xyz",
         port: 443,
-        password: "AWP)JQ$Gv9}dm.u",
+        password: "kdlavalink",
         identifier: "vicco node server",
         retryDelay: 5000,
         secure: true,
