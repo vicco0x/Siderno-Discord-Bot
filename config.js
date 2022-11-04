@@ -51,9 +51,9 @@ MUSIC: {
     MAX_SEARCH_RESULTS: 5,
     NODES: [
       {
-        host: "lavalink.oops.wtf",
+        host: "krn.2d.gay",
         port: 443,
-        password: "www.freelavalink.ga",
+        password: "AWP)JQ$Gv9}dm.u",
         identifier: "vicco node server",
         retryDelay: 5000,
         secure: true,
