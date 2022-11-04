@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "nodemon .",
-    "start": "nodemon bot.js"
+    "start": "node bot.js",
+    "start:dev": "nodemon bot.js"
   },
   "homepage": "https://github.com/Khanmanan/automod-bot#readme",
   "repository": {
@@ -51,8 +52,7 @@
     "string-progressbar": "^1.0.4",
     "table": "^6.8.0",
     "timestamp-to-date": "^1.1.0",
-    "twemoji-parser": "^13.1.0",
-    "nodemon": "^2.0.7"
+    "twemoji-parser": "^13.1.0"
   },
   "devDependencies": {
     "eslint": "^8.6.0",
