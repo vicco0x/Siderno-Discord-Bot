@@ -1,0 +1,32 @@
+15:38:50.516 INFO  Loading commands... 
+15:38:50.596 DEBUG Skipping slash command avatar. Disabled! 
+15:38:50.597 DEBUG Skipping slash command botinvite. Disabled! 
+15:38:50.623 DEBUG Skipping slash command botstats. Disabled! 
+15:38:50.624 DEBUG Skipping slash command channelinfo. Disabled! 
+15:38:50.626 DEBUG Skipping slash command emojiinfo. Disabled! 
+15:38:50.627 DEBUG Skipping slash command guildinfo. Disabled! 
+15:38:50.635 DEBUG Skipping command bot. Disabled! 
+15:38:50.636 DEBUG Skipping command info. Disabled! 
+15:38:50.636 DEBUG Skipping slash command uptime. Disabled! 
+15:38:50.637 DEBUG Skipping slash command userinfo. Disabled! 
+15:38:50.650 DEBUG Skipping slash command deafen. Disabled! 
+15:38:50.651 DEBUG Skipping slash command disconnect. Disabled! 
+15:38:50.653 DEBUG Skipping slash command move. Disabled! 
+15:38:50.654 DEBUG Skipping slash command purge. Disabled! 
+15:38:50.655 DEBUG Skipping slash command purgeattach. Disabled! 
+15:38:50.655 DEBUG Skipping slash command purgebots. Disabled! 
+15:38:50.656 DEBUG Skipping slash command purgelinks. Disabled! 
+15:38:50.657 DEBUG Skipping slash command purgetoken. Disabled! 
+15:38:50.657 DEBUG Skipping slash command purgeuser. Disabled! 
+15:38:50.659 DEBUG Skipping command purge. Disabled! 
+15:38:50.660 DEBUG Skipping command voice. Disabled! 
+15:38:50.663 DEBUG Skipping slash command undeafen. Disabled! 
+15:38:50.664 DEBUG Skipping slash command vmute. Disabled! 
+15:38:50.665 DEBUG Skipping slash command vunmute. Disabled! 
+15:38:50.765 INFO  Loaded 89 commands 
+15:38:50.765 INFO  Loaded 73 slash commands 
+15:38:50.766 INFO  Loading contexts... 
+15:38:50.769 INFO  Loaded 2 USER contexts 
+15:38:50.770 INFO  Loaded 0 MESSAGE contexts 
+15:38:50.770 INFO  Loading events... 
+15:38:50.816 INFO  Loaded 22 events. Success (22) Failed (0) 
