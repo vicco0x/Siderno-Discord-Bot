@@ -1,1 +1,1 @@
-worker: npm start:dev
+worker: npm run start:dev
