@@ -9,7 +9,7 @@ module.exports = {
     MESSAGE: "{members} members in {servers} servers", // Your bot status message
   },
   DASHBOARD: {
-    enabled: true, // enable or disable dashboard
+    enabled: false, // enable or disable dashboard
     baseURL: "http://localhost:8080", // base url
     failureURL: "http://localhost:8080", // failure redirect url
     port: "8080", // port to run the bot on

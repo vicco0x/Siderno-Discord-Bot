@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "nodemon .",
-    "start": "nodemon bot.js"
+    "start": "npx nodemon bot.js"
   },
   "homepage": "https://github.com/Khanmanan/automod-bot#readme",
   "repository": {
